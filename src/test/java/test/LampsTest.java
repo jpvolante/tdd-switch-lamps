@@ -41,4 +41,6 @@ public class LampsTest {
         assertEquals(1, Lamps.minSwitches(1, 1, 1, 0));
     }
 
+
+
 }
