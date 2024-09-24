@@ -36,4 +36,9 @@ public class LampsTest {
         assertEquals(1, Lamps.minSwitches(0, 1, 0, 0));
     }
 
+    @Test
+    public void testInitial_1_1_Final_1_0() {
+        assertEquals(1, Lamps.minSwitches(1, 1, 1, 0));
+    }
+
 }
